@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Qual-O-Mat"
+        android:text="@string/nav_header_title"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/black" />
 
@@ -35,6 +35,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:text="github.com/kadsendino/qual-o-mat"
+        android:text="@string/nav_header_subtitle"
         android:textColor="@color/black" />
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.qual_o_mat.ui.about;
+package com.example.qual_o_mat.ui.archive;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,20 +12,20 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.qual_o_mat.databinding.FragmentHomeBinding;
 
-public class AboutFragment extends Fragment {
+public class ArchiveFragment extends Fragment {
 
     private FragmentHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        AboutViewModel aboutViewModel =
-                new ViewModelProvider(this).get(AboutViewModel.class);
+        ArchiveViewModel homeViewModel =
+                new ViewModelProvider(this).get(ArchiveViewModel.class);
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textHome;
-        aboutViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

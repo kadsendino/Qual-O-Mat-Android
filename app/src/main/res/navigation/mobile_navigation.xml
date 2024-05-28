@@ -12,20 +12,27 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/nav_mytests"
+        android:name="com.example.qual_o_mat.ui.mytests.MyTestsFragment"
+        android:label="@string/menu_mytests"
+        tools:layout="@layout/fragment_mytests" />
+
+    <fragment
+        android:id="@+id/nav_archive"
+        android:name="com.example.qual_o_mat.ui.archive.ArchiveFragment"
+        android:label="@string/menu_archive"
+        tools:layout="@layout/fragment_archive" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.qual_o_mat.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
         android:id="@+id/nav_about"
         android:name="com.example.qual_o_mat.ui.about.AboutFragment"
         android:label="@string/menu_about"
         tools:layout="@layout/fragment_about" />
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.qual_o_mat.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.qual_o_mat.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
 </navigation>
