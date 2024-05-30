@@ -1,0 +1,3 @@
+[submodule "app/src/main/assets/qual-o-mat-data"]
+	path = app/src/main/assets/qual-o-mat-data
+	url = https://github.com/kadsendino/qual-o-mat-data
