@@ -12,4 +12,6 @@
     <string name="menu_archive">Archiv</string>
     <string name="menu_settings">Einstellungen</string>
     <string name="menu_about">Über Qual-O-Mat</string>
+
+    <string name="start_button">Start</string>
 </resources>

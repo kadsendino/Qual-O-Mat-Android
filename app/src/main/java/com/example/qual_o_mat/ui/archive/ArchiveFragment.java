@@ -24,7 +24,7 @@ public class ArchiveFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
+        final TextView textView = binding.textTitle;
         homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
