@@ -11,6 +11,9 @@
         <!-- Customize your theme here. -->
         <item name="colorContainer">@color/black</item>
         <item name="bottomNavigationStyle">@style/bottomNavigationStyle</item>
+
+        <!-- Set the color of hyperlinks -->
+        <item name="android:textColorLink">@color/blue</item>
     </style>
 
     <style name="bottomNavigationStyle" parent="Widget.MaterialComponents.BottomNavigationView.Colored">

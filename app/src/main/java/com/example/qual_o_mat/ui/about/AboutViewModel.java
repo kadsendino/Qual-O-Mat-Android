@@ -1,8 +1,14 @@
 package com.example.qual_o_mat.ui.about;
 
+import android.content.res.AssetManager;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 public class AboutViewModel extends ViewModel {
 
@@ -10,10 +16,13 @@ public class AboutViewModel extends ViewModel {
 
     public AboutViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is about fragment");
     }
 
     public LiveData<String> getText() {
         return mText;
+    }
+
+    public void setText(String text) {
+        mText.setValue(text);
     }
 }
